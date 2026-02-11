@@ -1,42 +1,40 @@
 //Ternary
-// let studentName = "Steven";
-// let studentScore = 90;
+let studentName = "Steven";
+let studentScore = 90;
 
-// let result = studentScore > 90 ? "Excellent" : 
-//             studentScore > 75 ? "Good":
-//             studentScore > 60 ? "Pass" :
-//             "Fail"
+let result = studentScore > 90 ? "Excellent" : 
+            studentScore > 75 ? "Good":
+            studentScore > 60 ? "Pass" :
+            "Fail"
 
-//             console.log(`${studentName} : ${studentScore}`)
+            console.log(`${studentName} : ${studentScore}`)
 
 //if
+let temperature = 32;
 
-// let temperature = 32;
-
-// if(temperature > 30){
-//     console.log("It's hot.");
-// }
+if(temperature > 30){
+    console.log("It's hot.");
+}
 
 //if else
-
-// let age = 18
-// if(age > 17){
-//     console.log("Adult");
-// }
-// else{
-//     console.log("Minor");
-// }
+let ages = 18
+if(ages > 17){
+    console.log("Adult");
+}
+else{
+    console.log("Minor");
+}
 
 
 //bool and logical 
-// let age = 20;
-// let hasID = false;
+let age = 20;
+let hasID = false;
 
-// if(age >= 18 && hasID){
-//     console.log("Can enter club");
-// }else{
-//     console.log("Cannot enter club");
-// }
+if(age >= 18 && hasID){
+    console.log("Can enter club");
+}else{
+    console.log("Cannot enter club");
+}
 
 //switch
 let fruit = "Banana";
